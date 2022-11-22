@@ -122,7 +122,7 @@ section{
     /* background-repeat: no-repeat;
     background-position: center; */
     /* animation:animate 45s infinite alternate ease; */
-    animation: animacion-promocional 40s ease 7s;   /* PROPIEDAD PARA ANIMAR-- "animacion-promocional" [ES EL NOMBRE DE LA ANIMACION]-- "40s" [DURACION TOTAL DE LA ANIMACION]-- "ease" [TIPO DE ANIMACION O DESPLAZAMIENTO DE TRANSICION]  "1s" [DELAY O ESPERA ANTES DE COMENZAR LA ANIMACION] */
+    animation: animacion-promocional 40s ease 3s;   /* PROPIEDAD PARA ANIMAR-- "animacion-promocional" [ES EL NOMBRE DE LA ANIMACION]-- "40s" [DURACION TOTAL DE LA ANIMACION]-- "ease" [TIPO DE ANIMACION O DESPLAZAMIENTO DE TRANSICION]  "1s" [DELAY O ESPERA ANTES DE COMENZAR LA ANIMACION] */
     animation-iteration-count:infinite; /* SE EJECUTARA HASTA EL INFINITO */
     
 }
@@ -409,6 +409,9 @@ footer .listas a{
     }
     .sec-1 .slider{
         background-position: center;
+        height: 400px;
+    }
+    .sec-1{
         height: 400px;
     }
     /* .footer{
